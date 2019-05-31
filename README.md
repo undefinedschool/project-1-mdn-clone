@@ -34,7 +34,9 @@ git branch -D <BRANCH_NAME> // borra el branch de GitHub. También podemos hacer
 
 7) Se aconseja (no es obligatorio) que algún miembro del equipo tome también el rol de _Project Manager_ para llevar un mejor control de las tareas y trabajar de forma más organizada.
 
-8) Si necesitan repasar comandos de git, este es un buen [cheatsheet](https://github.com/joshnh/Git-Commands). Para repasar conceptos de git, se recomiendan los siguientes tutoriales:
+8) Se aconseja también, en lo posible, juntarse en algún momento para agilizar el trabajo o usar alguna herramienta como Hangouts para tener calls.
+
+9) Si necesitan repasar comandos de git, este es un buen [cheatsheet](https://github.com/joshnh/Git-Commands). Para repasar conceptos de git, se recomiendan los siguientes tutoriales:
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
