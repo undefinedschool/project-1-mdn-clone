@@ -2,6 +2,8 @@
 
 Este es el proyecto 1, para aplicar lo aprendido hasta el momento de HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles :rocket:
 
+A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/)
+
 ## Setup y Workflow
 
 1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a colaborar. 
@@ -11,7 +13,7 @@ Ver el video [GITHUB PULL REQUEST, Branching, Merging & Team Workflow
 
 2) Crear [_issues_](https://help.github.com/en/articles/about-issues) por cada feature que vayan a inplementar en el proyecto. Es recomendable agregar los issues al [_milestone_](https://help.github.com/en/articles/about-milestones) correspondiente, para trackear el progreso y poder estimar el tiempo para completarlo. También se aconseja utilizar los [_proyectos de GitHub_](https://help.github.com/en/articles/about-project-boards) para tener un tablero _Kanban_ donde se pueda visualizar el estado del proyecto en todo momento.
 
-3) Cada miembro del equipo creará un _branch_ correspondiente a cada _feature_ y trabajará en ese branch (no en master!). Las features a implementar quedarán a criterio de cada equipo.
+3) Cada miembro del equipo creará un _branch_ correspondiente a cada _feature_ y trabajará en ese branch (**:warning: no en master!**). Las features a implementar quedarán a criterio de cada equipo. La idea es intentar copiar, en lo posible el [_feature branch workflow_](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 4) Cuando el feature esté completo (y comiteado en el branch), debemos agregar el branch al repositorio remoto de GitHub: `git push --set-upstream origin <BRANCH_NAME>`
 
