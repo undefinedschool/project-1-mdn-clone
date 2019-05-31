@@ -4,6 +4,8 @@ Este es el proyecto 1, para aplicar lo aprendido hasta el momento de HTML5, CSS3
 
 A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/)
 
+## Parte 1
+
 ## Setup y Workflow
 
 1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a colaborar. 
