@@ -1,6 +1,6 @@
 # Project 1: fakeMDN
 
-Este es el proyecto 1, para aplicar lo aprendido hasta el momento de HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles :rocket:
+Este es el proyecto 1, para aplicar lo aprendido hasta el momento de _HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles_ :rocket:
 
 A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/)
 
@@ -17,13 +17,22 @@ Ver el video [GITHUB PULL REQUEST, Branching, Merging & Team Workflow
 
 3) Cada miembro del equipo creará un _branch_ correspondiente a cada _feature_ y trabajará en ese branch (**:warning: no en master!**). Las features a implementar quedarán a criterio de cada equipo. La idea es intentar copiar, en lo posible el [_feature branch workflow_](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
-4) Cuando el feature esté completo (y comiteado en el branch), debemos agregar el branch al repositorio remoto de GitHub: `git push --set-upstream origin <BRANCH_NAME>`
+4) Cuando el feature esté completo (y comiteado en el branch), debemos agregar el branch al repositorio remoto de GitHub: 
+
+```git
+git push --set-upstream origin <BRANCH_NAME>
+```
 
 5) Desde el repo en GitHub, crear un [_Pull Request_](https://help.github.com/en/articles/about-pull-requests). Asignárselo a otro miembro (ponerlo como [_reviewer_](https://help.github.com/en/articles/about-pull-request-reviews)) para que realice un [_Code review_](https://www.atlassian.com/agile/software-development/code-reviews) del mismo y eventualmente lo apruebe o proponga cambios y/o correcciones. **Esta instancia es fundamental**.
 
-6) Luego de que el _PR_ sea aprobado y el correspondiente branch mergeado a _master_, ya podemos eliminar el branch, tanto de GitHub como de nuestro repo local, con `git branch -d <BRANCH_NAME>`.
+6) Luego de que el _PR_ sea aprobado y el correspondiente branch mergeado a _master_, ya podemos eliminar el branch, tanto de GitHub como de nuestro repo local, usando 
 
-7) Se aconseja (no es obligatorio) que algún miembro del equipo tome el rol de Líder/Project Manager para llevar un mejor control de las tareas y trabajar de forma más organizada
+```git
+git branch -d <BRANCH_NAME> // borra el branch local
+git branch -D <BRANCH_NAME> // borra el branch de GitHub. También podemos hacerlo desde GitHub
+```
+
+7) Se aconseja (no es obligatorio) que algún miembro del equipo tome también el rol de _Project Manager_ para llevar un mejor control de las tareas y trabajar de forma más organizada.
 
 8) Si necesitan repasar comandos de git, este es un buen [cheatsheet](https://github.com/joshnh/Git-Commands). Para repasar conceptos de git, se recomiendan los siguientes tutoriales:
 
