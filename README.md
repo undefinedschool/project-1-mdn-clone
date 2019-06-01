@@ -34,6 +34,8 @@ git branch -d <BRANCH_NAME> // borra el branch local
 git branch -D <BRANCH_NAME> // borra el branch de GitHub. También podemos hacerlo desde GitHub
 ```
 
+> :warning Recuerden _pullear_ los cambios de _master_ antes de _puhsear_ y arrancar una nueva feature!
+
 7) Se aconseja (no es obligatorio) que algún miembro del equipo tome también el rol de _Project Manager_ para llevar un mejor control de las tareas y trabajar de forma más organizada.
 
 8) Se aconseja también, en lo posible, juntarse en algún momento para agilizar el trabajo o usar alguna herramienta como Hangouts para tener calls.
