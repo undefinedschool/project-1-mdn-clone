@@ -17,6 +17,8 @@ Ver el video [GITHUB PULL REQUEST, Branching, Merging & Team Workflow
 
 3) Cada miembro del equipo creará un _branch_ correspondiente a cada _feature_ y trabajará en ese branch (**:warning: no en master!**). Las features a implementar quedarán a criterio de cada equipo. La idea es intentar copiar, en lo posible el [_feature branch workflow_](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
+> :warning: En _master_ sólo tendremos código funcional y features completas (y revisadas por otros miembros del equipo, ver el punto 5 sobre _Code Reviews_)
+
 4) Cuando el feature esté completo (y comiteado en el branch), debemos agregar el branch al repositorio remoto de GitHub: 
 
 ```git
