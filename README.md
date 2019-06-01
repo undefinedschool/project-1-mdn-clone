@@ -8,7 +8,7 @@ A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Re
 
 ## Setup y Workflow
 
-1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a colaborar. 
+1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a [colaborar](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository). 
 
 Ver el video [GITHUB PULL REQUEST, Branching, Merging & Team Workflow
 ](https://www.youtube.com/watch?v=oFYyTZwMyAg) para entender los detalles del flujo de trabajo.
@@ -25,7 +25,7 @@ Ver el video [GITHUB PULL REQUEST, Branching, Merging & Team Workflow
 git push --set-upstream origin <BRANCH_NAME>
 ```
 
-5) Desde el repo en GitHub, crear un [_Pull Request_](https://help.github.com/en/articles/about-pull-requests). Asignárselo a otro miembro (ponerlo como [_reviewer_](https://help.github.com/en/articles/about-pull-request-reviews)) para que realice un [_Code review_](https://www.atlassian.com/agile/software-development/code-reviews) del mismo y eventualmente lo apruebe o proponga cambios y/o correcciones. **Esta instancia es fundamental**.
+5) Desde el repo en GitHub, crear un [_Pull Request_](https://help.github.com/en/articles/about-pull-requests). Asignárselo a otro miembro (ponerlo como [_reviewer_](https://help.github.com/en/articles/about-pull-request-reviews)) para que realice un [_Code review_](https://www.atlassian.com/agile/software-development/code-reviews) del mismo y eventualmente lo apruebe o proponga cambios y/o correcciones. A su vez, la persona que abra el _PR_ se pondrá como [_asignee_](https://help.github.com/en/articles/assigning-issues-and-pull-requests-to-other-github-users) **Esta instancia es fundamental**.
 
 6) Luego de que el _PR_ sea aprobado y el correspondiente branch mergeado a _master_, ya podemos eliminar el branch, tanto de GitHub como de nuestro repo local, usando 
 
