@@ -58,6 +58,8 @@ git branch -D <BRANCH_NAME> // borra el branch de GitHub. También podemos hacer
 - [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
+> ✨Se recomienda dejar `map`, `filter` y `reduce` para el final, de manera que puedan reutilizar las funciones anteriores, ej utilizar el `fakeForEach` en la implementación del `fakeMap`
+
 1) Deben recibir al menos un array como parámetro y los parámetros extra necesarios (sólo los obligatorios, omitir los opcionales). Deben ser _funcionalmente iguales_ a los métodos originales, por lo que deben investigar bien qué hace cada uno.
 
 Como convención para llamar a las funciones, vamos a usar el prefijo _fake_ seguido del nombre del método, usando _camelCase_. El _array_ debe ser el 1er parámetro de la función.
