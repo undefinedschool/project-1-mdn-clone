@@ -127,3 +127,15 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Hacer las correcciones pedias, post-evaluación
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
+
+### Repaso de recursión
+
+- [Algorithms: Recursion](https://www.youtube.com/watch?v=KEEKn7Me-ms)
+- [Recursion Crash Course](https://www.youtube.com/watch?v=lMBVwYrmFZQ)
+- Resolver un problema mediante recursión significa que la solución depende de las soluciones de pequeñas instancias (subproblemas) del mismo problema.
+- Necesitamos: **caso base** y **caso recursivo**
+- **Todo algoritmo recursivo debe tener al menos un caso base, sino nunca va a terminar!**
+- Aparte del **caso base**, para asegurarnos de que enventualmente llegamos a él, **cada llamada recursiva debe ser invocada con una instancia más simple (y diferente) del problema**.
+- Ejemplo: [Sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci)
+- **Cualquier algoritmo recursivo puede escribirse de forma _iterativa_**. Es parte de las optimizaciones que aplica el compilador.
+- Los algoritmos recursivos suelen ser _ineficientes_. Se los utiliza en casos simples (porque suelen ser más legibles), siempre que sepamos que no vamos a _reventar el stack_ :bomb::boom:
