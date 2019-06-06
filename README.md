@@ -125,12 +125,15 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Parte 2
 
-- Hacer las correcciones pedias, post-evaluación
+- Hacer las correcciones pedidas, post-evaluación
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`
 - Utilizar `fakeForEach` en la implementación de `fakeEvery`, `fakeMap` y `fakeFilter`
 - Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes` 
+- Implementar el método `fakeIntersection` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#intersection)
+- Implementar el método `fakeUnion` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#union)
+- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones
 
 ### Repaso de recursión
 
