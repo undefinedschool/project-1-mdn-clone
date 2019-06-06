@@ -31,7 +31,8 @@ git push --set-upstream origin <BRANCH_NAME>
 
 ```git
 git branch -d <BRANCH_NAME> // borra el branch local
-git branch -D <BRANCH_NAME> // borra el branch de GitHub. También podemos hacerlo desde GitHub
+git push origin --delete <BRANCH_NAME> // borra el branch remoto, es decir en Github. También podemos hacerlo desde GitHub 
+git branch -D <BRANCH_NAME> // borra el branch local aunque no haya sido mergeado a master
 ```
 
 > :warning: Recuerden _pullear_ los cambios de _master_ antes de _puhsear_ y arrancar una nueva feature!
