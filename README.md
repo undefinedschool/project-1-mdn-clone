@@ -119,3 +119,10 @@ fakeIncludes.html
 Las páginas de cada función deben contener toda la información que figura en este template (pueden agregar algún extra que consideren necesario)
 
 ![](https://i.imgur.com/iYHD9vs.png)
+
+---
+
+## Parte 2
+
+- Hacer las correcciones necesarias, post-evaluación
+- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
