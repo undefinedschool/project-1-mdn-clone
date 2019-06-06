@@ -124,5 +124,6 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Parte 2
 
-- Hacer las correcciones necesarias, post-evaluación
+- Hacer las correcciones pedias, post-evaluación
+- Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf), a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
