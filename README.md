@@ -133,6 +133,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes` 
 - Implementar el método `fakeIntersection` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#intersection)
 - Implementar el método `fakeUnion` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#union)
+- Implementar el método `fakeSum`, utilizando `fakeReduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#sum) 
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones
 
 ### Repaso de recursión
