@@ -134,7 +134,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Implementar el método `fakeIntersection` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#intersection)
 - Implementar el método `fakeUnion` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#union)
 - Implementar el método `fakeSum`, utilizando `fakeReduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#sum) 
-- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones
+- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
 
 ### Repaso de recursión
 
@@ -153,5 +153,6 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Parte 3
 
-- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127]`, `['a', '1', 'j']`. Si es vacío, retornar `undefined.
-- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127]`, `['a', '1', 'j']`. Si es vacío, retornar `undefined`.
+- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
+- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
+- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
