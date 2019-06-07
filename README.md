@@ -153,5 +153,5 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Parte 3
 
-- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127], ['a', '1', 'j']. Si es vacío, retornar ´undefined´.
-- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127], ['a', '1', 'j']. Si es vacío, retornar ´undefined´.
+- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127]`, `['a', '1', 'j']`. Si es vacío, retornar `undefined.
+- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127]`, `['a', '1', 'j']`. Si es vacío, retornar `undefined`.
