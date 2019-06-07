@@ -6,7 +6,7 @@ A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Re
 
 ## Parte 1
 
-## Setup y Workflow
+### Setup y Workflow
 
 1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a [colaborar](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository). 
 
@@ -48,7 +48,7 @@ git branch -D <BRANCH_NAME> // borra el branch local aunque no haya sido mergead
 - [Making a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 - [¿Por qué hacemos Code Reviews?](https://www.atlassian.com/agile/software-development/code-reviews)
 
-## Implementar los siguientes métodos de arrays como funciones 
+### Implementar los siguientes métodos de arrays como funciones 
 
 - [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - [`some`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
@@ -128,7 +128,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Hacer las correcciones pedidas, post-evaluación
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
-- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`
+- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`. Pista, utilizar [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) ó [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) en la implementación.
 - Utilizar `fakeForEach` en la implementación de `fakeEvery`, `fakeMap` y `fakeFilter`
 - Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes` 
 - Implementar el método `fakeIntersection` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#intersection)
@@ -140,6 +140,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 - [Algorithms: Recursion](https://www.youtube.com/watch?v=KEEKn7Me-ms)
 - [Recursion Crash Course](https://www.youtube.com/watch?v=lMBVwYrmFZQ)
+- [Understanding Recursion: A JavaScript Example](https://www.youtube.com/watch?v=py7ZWFjrwEs)
 - Resolver un problema mediante recursión significa que la solución depende de las soluciones de pequeñas instancias (subproblemas) del mismo problema.
 - Necesitamos: **caso base** y **caso recursivo**
 - **Todo algoritmo recursivo debe tener al menos un caso base, sino nunca va a terminar!**
@@ -147,3 +148,10 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Ejemplo: [Sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci)
 - **Cualquier algoritmo recursivo puede escribirse de forma _iterativa_**. Es parte de las optimizaciones que aplica el compilador.
 - Los algoritmos recursivos suelen ser _ineficientes_. Se los utiliza en casos simples (porque suelen ser más legibles), siempre que sepamos que no vamos a _reventar el stack_ :bomb::boom:
+
+---
+
+## Parte 3
+
+- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127], ['a', '1', 'j']. Si es vacío, retornar ´undefined´.
+- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`, ejs: `[4, -1, 10, 127], ['a', '1', 'j']. Si es vacío, retornar ´undefined´.
