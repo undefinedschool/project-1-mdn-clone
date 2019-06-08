@@ -27,6 +27,8 @@ git push --set-upstream origin <BRANCH_NAME>
 
 5) Desde el repo en GitHub, crear un [_Pull Request_](https://help.github.com/en/articles/about-pull-requests). Asignárselo a otro miembro (ponerlo como [_reviewer_](https://help.github.com/en/articles/about-pull-request-reviews)) para que realice un [_Code review_](https://www.atlassian.com/agile/software-development/code-reviews) del mismo y eventualmente lo apruebe o proponga cambios y/o correcciones. A su vez, la persona que abra el _PR_ se pondrá como [_asignee_](https://help.github.com/en/articles/assigning-issues-and-pull-requests-to-other-github-users) y será la responsable de iterar sobre el feature (si es necesario hacer correcciones o cambios) hasta que llegue a _master_. **Esta instancia es fundamental**.
 
+> 👉La idea es que **todos** los miembros del equipo haya hecho _al menos_ un PR y _al menos_ un Code Review
+
 6) Luego de que el _PR_ sea aprobado y el correspondiente branch mergeado a _master_, ya podemos eliminar el branch, tanto de GitHub como de nuestro repo local, usando 
 
 ```git
