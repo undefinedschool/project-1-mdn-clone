@@ -4,8 +4,6 @@ Proyecto para aplicar lo aprendido hasta el momento de _HTML5, CSS3, JS (ES6+), 
 
 A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/), siguiendo el [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) como metodología.
 
-## Parte 1
-
 ### Setup y Workflow
 
 1) Deben trabajar en _un único repositorio_, creado por algún miembro del equipo, en el que el resto va a [colaborar](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository). 
@@ -49,6 +47,8 @@ git branch -D <BRANCH_NAME> // borra el branch local aunque no haya sido mergead
 - [Git Branch](https://www.atlassian.com/git/tutorials/using-branches)
 - [Making a Pull Request](https://www.atlassian.com/git/tutorials/making-a-pull-request)
 - [¿Por qué hacemos Code Reviews?](https://www.atlassian.com/agile/software-development/code-reviews)
+
+## Sprint 1
 
 ### Implementar los siguientes métodos de arrays como funciones 
 
@@ -125,7 +125,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ---
 
-## Parte 2
+## Sprint 2
 
 - Hacer las correcciones pedidas, post-evaluación.
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro.
@@ -153,7 +153,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ---
 
-## Parte 3
+## Sprint 3
 
 - Implementar el método [`fakeArrayMin`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
 - Implementar el método [`fakeArrayMax`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
@@ -161,7 +161,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Implementar el método [`lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
 
-## Parte 4
+## Sprint 4
 
 - Implementar el método [`concat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
 - Implementar el método [`without`](https://lodash.com/docs/4.17.11#without) (con su correspondiente HTML).
