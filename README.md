@@ -1,8 +1,8 @@
 # Project 1: fakeMDN
 
-Este es el proyecto 1, para aplicar lo aprendido hasta el momento de _HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles_ :rocket:
+Proyecto para aplicar lo aprendido hasta el momento de _HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles_ :rocket:
 
-A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/)
+A partir de este proyecto empezamos a trabajar utilizando _branches_ y [_Code Reviews_](https://www.freecodecamp.org/news/code-review-the-ultimate-guide-aa45c358bbf5/), siguiendo el [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) como metodología.
 
 ## Parte 1
 
@@ -127,34 +127,44 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Parte 2
 
-- Hacer las correcciones pedidas, post-evaluación
-- Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro
-- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`
+- Hacer las correcciones pedidas, post-evaluación.
+- Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro.
+- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`.
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`. Pista, utilizar [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) ó [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) en la implementación.
-- Utilizar `fakeForEach` en la implementación de `fakeEvery`, `fakeMap` y `fakeFilter`
-- Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes` 
-- Implementar el método `fakeIntersection` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#intersection)
-- Implementar el método `fakeUnion` (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#union)
-- Implementar el método `fakeSum` (con su correspondiente HTML), utilizando `fakeReduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#sum) 
+- Utilizar `fakeForEach` en la implementación de `fakeEvery`, `fakeMap` y `fakeFilter`.
+- Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes`.
+- Implementar el método [`fakeIntersection`](https://lodash.com/docs/4.17.11#intersection) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos.
+- Implementar el método [`fakeUnion`](https://lodash.com/docs/4.17.11#union) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**.
+- Implementar el método [`fakeSum`](https://lodash.com/docs/4.17.11#sum) (con su correspondiente HTML), utilizando `fakeReduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. 
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
 
 ### Repaso de recursión
 
-- [Algorithms: Recursion](https://www.youtube.com/watch?v=KEEKn7Me-ms)
-- [Recursion Crash Course](https://www.youtube.com/watch?v=lMBVwYrmFZQ)
-- [Understanding Recursion: A JavaScript Example](https://www.youtube.com/watch?v=py7ZWFjrwEs)
+- [Algorithms: Recursion](https://www.youtube.com/watch?v=KEEKn7Me-ms).
+- [Recursion Crash Course](https://www.youtube.com/watch?v=lMBVwYrmFZQ).
+- [Understanding Recursion: A JavaScript Example](https://www.youtube.com/watch?v=py7ZWFjrwEs).
 - Resolver un problema mediante recursión significa que la solución depende de las soluciones de pequeñas instancias (subproblemas) del mismo problema.
-- Necesitamos: **caso base** y **caso recursivo**
-- **Todo algoritmo recursivo debe tener al menos un caso base, sino nunca va a terminar!**
+- Necesitamos: **caso base** y **caso recursivo**.
+- **Todo algoritmo recursivo debe tener al menos un caso base, sino nunca va a terminar!**.
 - Aparte del **caso base**, para asegurarnos de que enventualmente llegamos a él, **cada llamada recursiva debe ser invocada con una instancia más simple (y diferente) del problema**.
-- Ejemplo: [Sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci)
+- Ejemplo: [Sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci).
 - **Cualquier algoritmo recursivo puede escribirse de forma _iterativa_**. Es parte de las optimizaciones que aplica el compilador.
-- Los algoritmos recursivos suelen ser _ineficientes_. Se los utiliza en casos simples (porque suelen ser más legibles), siempre que sepamos que no vamos a _reventar el stack_ :bomb::boom:
+- Los algoritmos recursivos suelen ser _ineficientes_. Se los utiliza en casos simples (porque suelen ser más legibles), siempre que sepamos que no vamos a _reventar el stack_. :bomb::boom:
 
 ---
 
 ## Parte 3
 
-- Implementar el método `fakeArrayMin` (con su correspondiente HTML), que retorna el valor mínimo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#min). El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
-- Implementar el método `fakeArrayMax` (con su correspondiente HTML), que retorna el valor máximo de un array. [Referencia y ejemplos](https://lodash.com/docs/4.17.11#max). El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
+- Implementar el método [`fakeArrayMin`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
+- Implementar el método [`fakeArrayMax`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
+- Implementar el método [`findIndex`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
+- Implementar el método [`lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
+- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
+
+## Parte 4
+
+- Implementar el método [`concat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
+- Implementar el método [`without`](https://lodash.com/docs/4.17.11#without) (con su correspondiente HTML).
+- Implementar el método [`uniq`](https://lodash.com/docs/4.17.11#uniq) (con su correspondiente HTML).
+- Implementar el método [`join`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) (con su correspondiente HTML).
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
