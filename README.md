@@ -164,7 +164,9 @@ Las páginas de cada función deben contener toda la información que figura en 
   - `fakeArrayMax([4, -1, 10, 127]) => 127`.
   - `fakeArrayMax(['a', '1', 'j']) => 'j'`. 
   - Si es vacío, retornar `undefined`.
+- Usar el tag semántico [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) para las secciones de código. Tener en cuenta que `code` es _inline_, por lo que quizás sea necesario utilizarlo junto con [`pre`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) para que el código mantenga su forma.
 - Agregar al `index.html` y a la sección _Ver también_ de cada página los enlaces correspondientes a las nuevas funciones.
+- Investigar cómo usar [`highlight.js`](https://highlightjs.org/) y tratar de implementarlo en las secciones de código.
 
 ## Sprint 4
 
