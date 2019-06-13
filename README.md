@@ -157,13 +157,16 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 - Implementar el método [`fakeArrayMin`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
 - Implementar el método [`fakeArrayMax`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
-- Implementar el método [`findIndex`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
-- Implementar el método [`lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
 
 ## Sprint 4
 
+- Implementar el método [`findIndex`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
+- Implementar el método [`lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
 - Implementar el método [`concat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
+
+## Sprint 5
+
 - Implementar el método [`without`](https://lodash.com/docs/4.17.11#without) (con su correspondiente HTML).
 - Implementar el método [`uniq`](https://lodash.com/docs/4.17.11#uniq) (con su correspondiente HTML).
 - Implementar el método [`join`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) (con su correspondiente HTML).
