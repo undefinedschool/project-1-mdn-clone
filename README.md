@@ -155,6 +155,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 3
 
+- Agregar el parámetro `initialValue` al `fakeReduce` (y asignarle un valor por default). Modificar, si es necesario, el código de la función para que lo utilice y actualizar su HTML.
 - Implementar el método [`fakeArrayMin`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMin([4, -1, 10, 127]) => -1`, `fakeArrayMin(['a', '1', 'j']) => 1`. Si es vacío, retornar `undefined`.
 - Implementar el método [`fakeArrayMax`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. Ejs: `fakeArrayMax([4, -1, 10, 127]) => 127`, `fakeArrayMax(['a', '1', 'j']) => 'j'`. Si es vacío, retornar `undefined`.
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
