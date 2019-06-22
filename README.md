@@ -131,7 +131,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro.
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`.
 - Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`. Pista, utilizar [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) ó [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) en la implementación.
-- Utilizar `fakeForEach` en la implementación de `fakeEvery`, `fakeMap` y `fakeFilter`.
+- Utilizar `fakeForEach` en la implementación de `fakeMap` y `fakeFilter`.
 - Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes`.
 - Implementar el método [`fakeIntersection`](https://lodash.com/docs/4.17.11#intersection) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos.
 - Implementar el método [`fakeUnion`](https://lodash.com/docs/4.17.11#union) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**.
