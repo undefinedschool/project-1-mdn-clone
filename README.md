@@ -178,7 +178,4 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 5
 
-- Implementar el método [`without`](https://lodash.com/docs/4.17.11#without) (con su correspondiente HTML).
-- Implementar el método [`uniq`](https://lodash.com/docs/4.17.11#uniq) (con su correspondiente HTML).
-- Implementar el método [`join`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) (con su correspondiente HTML).
-- Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
+- TBD
