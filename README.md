@@ -178,4 +178,5 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 5
 
-- TBD
+- Hacer las correciones pendientes
+- Cerrar PRs, conflictos, etc
