@@ -178,5 +178,8 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 5
 
-- Hacer las correciones pendientes
-- Cerrar PRs, conflictos, etc
+En este sprint no hay nuevas features para implementar, sino básicamente pulir la base que tenemos para las próximas etapas
+
+- Prestarle más atención al maquetado
+- Hacer las correcciones pendientes
+- Cerrar PRs colgados, conflictos, etc
