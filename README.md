@@ -173,7 +173,7 @@ Las páginas de cada función deben contener toda la información que figura en 
 - Implementar el método [`_findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
 - Implementar el método [`_lastIndexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
 - Implementar el método [`_concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
-- Implementar el método `areEqual`, que redibe 2 arrays como parámetro y retorna `true` si son iguales (es decir, tienen los mismos elementos y en el mismo orden) ó `false`en caso contrario (con su correspondiente HTML).
+- Implementar el método `_isEqual()`, que redibe 2 arrays (unidimensionales) como parámetro y retorna `true` si son iguales (es decir, tienen los mismos elementos y en el mismo orden) ó `false`en caso contrario (con su correspondiente HTML).
 - Agregar al `index.html` y a la sección _Ver también_ de cada página los enlaces correspondientes a las nuevas funciones.
 
 ## Sprint 5
