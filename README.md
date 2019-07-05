@@ -1,4 +1,4 @@
-# Project 1: fakeMDN
+# Project 1: MDN Clone
 
 Proyecto para aplicar lo aprendido hasta el momento de _HTML5, CSS3, JS (ES6+), Git y Metodologías ágiles_ :rocket:
 
@@ -61,18 +61,18 @@ git branch -D <BRANCH_NAME> // borra el branch local aunque no haya sido mergead
 - [`filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [`reduce`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
-> ✨Se recomienda dejar `map`, `filter` y `reduce` para el final, de manera que puedan reutilizar las funciones anteriores, ej utilizar el `fakeForEach` en la implementación del `fakeMap`
+> ✨Se recomienda dejar `map()`, `filter()` y `reduce()` para el final, de manera que puedan reutilizar las funciones anteriores (por ejemplo, utilizar el `_forEach()` en la implementación del `_map()`).
 
 1) Deben recibir al menos un array como parámetro y los parámetros extra necesarios (sólo los obligatorios, omitir los opcionales). Deben ser _funcionalmente iguales_ a los métodos originales, por lo que deben investigar bien qué hace cada uno.
 
-Como convención para llamar a las funciones, vamos a usar el prefijo _fake_ seguido del nombre del método, usando _camelCase_. El _array_ debe ser el 1er parámetro de la función.
+Como convención para llamar a las funciones, vamos a usar el prefijo `_` seguido del nombre del método, usando _camelCase_. El _array_ debe ser el 1er parámetro de la función.
 
 ### Ejemplos: 
 
 ```js
-fakeSome(arr, fn)
-fakeEvery(arr, fn)
-fakeIncludes(arr, value)
+_some(arr, fn)
+_every(arr, fn)
+_includes(arr, value)
 ```
 
 **No pueden usar ningún método de la lista en la implementación de las funciones, pero sí reutilizar alguna función que definan ustedes en la implementación de otras.**
@@ -82,15 +82,15 @@ fakeIncludes(arr, value)
 ```js
 ...
 
-function fakeSome(arr, fn) {
+function _some(arr, fn) {
   ...
 }
 
-function fakeEvery(arr, fn) {
+function _every(arr, fn) {
   ...
 }
 
-function fakeIncludes(arr, value) {
+function _includes(arr, value) {
   ...
 }
 
@@ -110,9 +110,9 @@ function fakeIncludes(arr, value) {
 ### Ejemplos: 
 
 ```html
-fakeSome.html
-fakeEvery.html
-fakeIncludes.html
+_some.html
+_every.html
+_includes.html
 ```
 
 > Nota: Cada grupo decidirá cómo implementar cada página (elementos HTML y estilos). Los únicos requisitos son que la página de información de cada función contenga toda la información mostrada en el siguiente template de ejemplo y que se utilice _HTML5 semántico_. Será evaluada, como siempre, la aplicación de las [buenas prácticas](http://undefinedschool.io/best-practices/) (HTML, CSS y JS).
@@ -129,13 +129,13 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 - Hacer las correcciones pedidas, post-evaluación.
 - Implementar las acciones decididas por el grupo para mejorar la mecánica de trabajo, post-retro.
-- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `fakeIndexOf`, con su correspondiente página `fakeIndexOf.html`.
-- Implementar el método [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `fakeIndexOfRecursive`, con su correspondiente página `fakeIndexOfRecursive.html`. Pista, utilizar [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) ó [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) en la implementación.
-- Utilizar `fakeForEach` en la implementación de `fakeMap` y `fakeFilter`.
-- Utilizar `fakeIndexOf`(versión iterativa) en la implementación de `fakeIncludes`.
-- Implementar el método [`fakeIntersection`](https://lodash.com/docs/4.17.11#intersection) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos.
-- Implementar el método [`fakeUnion`](https://lodash.com/docs/4.17.11#union) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**.
-- Implementar el método [`fakeSum`](https://lodash.com/docs/4.17.11#sum) (con su correspondiente HTML), utilizando `fakeReduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. 
+- Implementar el método [`_indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _iterativo_, a través de la función `_indexOf`, con su correspondiente página `_indexOf.html`.
+- Implementar el método [`_indexOfRecursive()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) con un algoritmo _recursivo_, a través de la función `_indexOfRecursive`, con su correspondiente página `_indexOfRecursive.html`. Pista, utilizar [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) ó [splice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) en la implementación.
+- Utilizar `_forEach` en la implementación de `_map()` y `_filter()`.
+- Utilizar `_indexOf` (versión iterativa) en la implementación de `_includes()`.
+- Implementar el método [`_intersection()`](https://lodash.com/docs/4.17.11#intersection) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con los valores comunes a ambos.
+- Implementar el método [`_union()`](https://lodash.com/docs/4.17.11#union) (con su correspondiente HTML), que compara 2 arrays y retorna un nuevo array con la unión de los valores de ambos, **sin repeticiones**. **Preservar el orden de los elementos, comenzando desde el primer elemento del primer array pasado por parámetro**.
+- Implementar el método [`_sum()`](https://lodash.com/docs/4.17.11#sum) (con su correspondiente HTML), utilizando `_reduce` en su implementación, que recibe un array de números y retorna la suma de todos sus valores. 
 - Agregar al `index.html` y a la sección _Ver también_ de cada página enlaces a las nuevas funciones.
 
 ### Repaso de recursión
@@ -155,14 +155,14 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 3
 
-- Agregar el parámetro `initialValue` al `fakeReduce`. Modificar, si es necesario, el código de la función para que lo utilice y actualizar su HTML.
-- Implementar el método [`fakeArrayMin`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. 
-  - `fakeArrayMin([4, -1, 10, 127]) => -1`.
-  - `fakeArrayMin(['a', '1', 'j']) => 1`. 
+- Agregar el parámetro `initialValue` al `_reduce()`. Modificar, si es necesario, el código de la función para que lo utilice y actualizar su HTML.
+- Implementar el método [`_min()`](https://lodash.com/docs/4.17.11#min), que retorna el valor mínimo de un array. El array puede ser de `number`ó `string`. 
+  - `_min([4, -1, 10, 127]) => -1`.
+  - `_min(['a', '1', 'j']) => 1`. 
   - Si es vacío, retornar `undefined`.
-- Implementar el método [`fakeArrayMax`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. 
-  - `fakeArrayMax([4, -1, 10, 127]) => 127`.
-  - `fakeArrayMax(['a', '1', 'j']) => 'j'`. 
+- Implementar el método [`_max()`](https://lodash.com/docs/4.17.11#max) (con su correspondiente HTML), que retorna el valor máximo de un array. El array puede ser de `number`ó `string`. 
+  - `_max([4, -1, 10, 127]) => 127`.
+  - `_max(['a', '1', 'j']) => 'j'`. 
   - Si es vacío, retornar `undefined`.
 - Usar el tag semántico [`<code>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code) para las secciones de código. Tener en cuenta que `code` es _inline_, por lo que quizás sea necesario utilizarlo junto con [`pre`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre) para que el código mantenga su forma.
 - Agregar al `index.html` y a la sección _Ver también_ de cada página los enlaces correspondientes a las nuevas funciones.
@@ -170,9 +170,9 @@ Las páginas de cada función deben contener toda la información que figura en 
 
 ## Sprint 4
 
-- Implementar el método [`findIndex`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
-- Implementar el método [`lastIndexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
-- Implementar el método [`concat`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
+- Implementar el método [`_findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) (con su correspondiente HTML).
+- Implementar el método [`_lastIndexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf) (con su correspondiente HTML).
+- Implementar el método [`_concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) (con su correspondiente HTML).
 - Implementar el método `areEqual`, que redibe 2 arrays como parámetro y retorna `true` si son iguales (es decir, tienen los mismos elementos y en el mismo orden) ó `false`en caso contrario (con su correspondiente HTML).
 - Agregar al `index.html` y a la sección _Ver también_ de cada página los enlaces correspondientes a las nuevas funciones.
 
@@ -183,3 +183,12 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 - Prestarle más atención al maquetado
 - Hacer las correcciones pendientes
 - Cerrar PRs colgados, conflictos, etc
+
+## Sprint 6
+
+- Renombrar los métodos implementados con el prefijo `_` en lugar de `fake`
+- Renombrar los métodos `fakeArrayMax()` y `fakeArrayMax()` como `_max()` y `_min()`respectivamente 
+_ Renombrar el método `areEqual()` como `_isEqual()`, por consistencia con el [nombre original](https://lodash.com/docs/4.17.11#isEqual)
+- Hacer las correcciones pendientes
+- Cerrar PRs colgados, conflictos, etc
+- Validar el [HTML](https://validator.w3.org/) y el [CSS](https://jigsaw.w3.org/css-validator/) que utilizamos
