@@ -188,7 +188,7 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 
 - Renombrar los métodos implementados con el prefijo `_` en lugar de `fake`
 - Renombrar los métodos `fakeArrayMax()` y `fakeArrayMax()` como `_max()` y `_min()`respectivamente 
-_ Renombrar el método `areEqual()` como `_isEqual()`, por consistencia con el [nombre original](https://lodash.com/docs/4.17.11#isEqual)
+- Renombrar el método `areEqual()` como `_isEqual()`, por consistencia con el [nombre original](https://lodash.com/docs/4.17.11#isEqual)
 - Hacer las correcciones pendientes
 - Cerrar PRs colgados, conflictos, etc
 - Validar el [HTML](https://validator.w3.org/) y el [CSS](https://jigsaw.w3.org/css-validator/) que utilizamos
