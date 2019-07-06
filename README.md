@@ -187,7 +187,7 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 ## Sprint 6
 
 - Renombrar los métodos implementados con el prefijo `_` en lugar de `fake`
-- Renombrar los métodos `fakeArrayMax()` y `fakeArrayMax()` como `_max()` y `_min()`respectivamente 
+- Renombrar los métodos `fakeArrayMax()` y `fakeArrayMin()` como `_max()` y `_min()` respectivamente 
 - Renombrar el método `areEqual()` como `_isEqual()`, por consistencia con el [nombre original](https://lodash.com/docs/4.17.11#isEqual)
 - Hacer las correcciones pendientes
 - Cerrar PRs colgados, conflictos, etc
