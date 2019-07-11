@@ -192,3 +192,7 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 - Hacer las correcciones pendientes
 - Cerrar PRs colgados, conflictos, etc
 - Validar el [HTML](https://validator.w3.org/) y el [CSS](https://jigsaw.w3.org/css-validator/) que utilizamos
+
+## Sprint 7
+
+- Reescribir las funciones como métodos de _Array_, usando el [prototype](https://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)
