@@ -196,3 +196,4 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 ## Sprint 7
 
 - Reescribir las funciones como métodos de _Array_, usando el [prototype](https://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)
+- Adaptar la documentación (sintaxis, ejemplos, etc) donde corresponda
