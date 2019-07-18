@@ -197,3 +197,9 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 
 - Reescribir las funciones como métodos de _Array_, usando el [prototype](https://eloquentjavascript.net/06_object.html#h_SumMlRB7yn)
 - Adaptar la documentación (sintaxis, ejemplos, etc) donde corresponda
+
+## Sprint 8
+
+- Investigar el [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) y cómo aplicarlo para refactorizar los métodos del proyecto donde corresponda (por ejemplo, cuando tenemos que concatenar, unir arrays, etc)
+- Investigar [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) y cómo aplicarlo para refactorizar los métodos donde necesitamos remover duplicados
+- Remover la sección _Ver también_ de las páginas de documentación (perdón)
