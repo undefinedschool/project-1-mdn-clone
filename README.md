@@ -201,5 +201,5 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 ## Sprint 8
 
 - Investigar el [Spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) y cómo aplicarlo para refactorizar los métodos del proyecto donde corresponda (por ejemplo, cuando tenemos que concatenar, unir arrays, etc)
-- Investigar [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) y cómo aplicarlo para refactorizar los métodos donde necesitamos remover duplicados
+- Investigar [Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) y cómo aplicarlo para refactorizar los métodos donde necesitamos remover duplicados. **Pro-tip:** combinarlo con el _Spread operator_ para ver la magia :star: :fireworks:
 - Remover la sección _Ver también_ de las páginas de documentación (perdón)
