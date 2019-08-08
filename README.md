@@ -207,4 +207,4 @@ En este sprint no hay nuevas features para implementar, sino básicamente pulir 
 
 ## Sprint 9
 
-- Utilizar [Variables](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care) [CSS](https://www.madebymike.com.au/writing/using-css-variables/) para reutilizar las propiedades relacionadas a `color` y `font-family` en el proyecto. [Acá les dejo un artículo](https://uxdesign.cc/my-struggle-with-colors-52156c664b87) que plantea un forma interesante para nombrar colores
+- Utilizar [Variables](https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care) [CSS](https://www.madebymike.com.au/writing/using-css-variables/) para reutilizar las propiedades relacionadas a `color` y `font-family` en el proyecto. [Acá](https://css-tricks.com/what-do-you-name-color-variables/) les dejo una discusión sobre _cómo nombrar colores en CSS_ y [este artículo](https://uxdesign.cc/my-struggle-with-colors-52156c664b87) que plantea un solución interesante
